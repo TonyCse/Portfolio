@@ -16,7 +16,7 @@
         <p class="mt-5 green text-size">Hello je m'appelle</p>
         <h1 class="text-h2 my-3 archivo">Tony Cseresznyak</h1>
         <h2 class="text-uppercase text-h4 green-2 archivo">Développeur Web</h2>
-        <p class="text-sm-left my-8 text-size green"> Je suis un développeur web junior full stack avec un penchant pour le front et une forte sensibilité à l'UX/UI design. <br><br> Actuellement je suis en recherche d'une alternance pour mon bac+5 Développeur web full stack avec <a class=" keyword" href="https://cloud-campus.fr/developpeur-web-full-stack/"> Cloud Campus</a>.
+        <p class="text-sm-left my-8 text-size green"> Je suis un développeur web junior full stack avec un penchant pour le front et une forte sensibilité à l'UX/UI design. <br><br> Actuellement je suis en recherche d'une alternance pour mon bac+4 Développeur web full stack avec <a class=" keyword" href="https://cloud-campus.fr/developpeur-web-full-stack/"> Cloud Campus</a>.
         </p>
       </div>
         <a id="test">
@@ -62,7 +62,7 @@ export default {
 <style scoped>
 
 .text-size{
-      font: 2em "Anonymous Pro";
+  font: 2em "Anonymous Pro";
 }
 
 .archivo{
@@ -172,7 +172,7 @@ export default {
   padding: 0px 200px;
 }
 .hello{
-  height: 1000px;
+  min-height: 1000px;
   justify-content: center;
   display: flex;
   flex-direction: column;
