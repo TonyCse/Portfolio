@@ -70,11 +70,13 @@ export default {
 }
 
 .header{
+  background-color: #2c3366;
   position:fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  margin-top:30px;
+  padding-top:30px;
+  padding-bottom: 30px;
 }
 .social{
   display: flex;
