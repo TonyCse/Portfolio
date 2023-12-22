@@ -54,7 +54,7 @@
           <p> Un compte Admin est également présent, avec la possibilité de supprimer les posts des autres utilisateurs.</p>
       </div>
     </div>
-    <div class="wip">
+    <div class="wip mt-10 pt-10">
       WORK IN PROGRESS
       Prochainement: la suite des projets réalisés (vidéo youtube démo), liens de la navbar cliquables qui renvoyent vers chaques sections associées, animations du logo et ajout d'une animation chargement à l'ouverture de la page.
     </div>
