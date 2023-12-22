@@ -1,6 +1,6 @@
 <template>
   <h2 class="project-title my-16">Mes projets</h2>
-  <div class="container">
+  <div>
     <div class="d-flex mb-16">
       <a href="https://pokedex-tony-cseresznyak.vercel.app/">
         <img class="project-img" src="../assets/pokedex.png" alt="pokedex">
@@ -89,9 +89,6 @@ export default {
   color: rgb(91, 177, 171);
 }
 
-.container{
-  max-width: 70% ;
-}
 .project-title{
     display: flex;
     text-align: left;
