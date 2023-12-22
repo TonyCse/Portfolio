@@ -5,14 +5,20 @@
       <a href="https://pokedex-tony-cseresznyak.vercel.app/">
         <img class="project-img" src="../assets/pokedex.png" alt="pokedex">
       </a>
-      <div class="ml-10 d-flex card-title">
-        <div>
-          <h2 class>
-            Pokedex
-          </h2>
-        </div>
+      <div class="ml-10 card-text">
+        <h2 class="card-title">
+          Pokedex
+        </h2>
         <div class="card-footer">
-          <span>test</span>
+          <a href="">
+            <img class="logo" src="../assets/github-projet.png" alt="github">
+          </a>
+          <a href="">
+            <img class="logo-link" src="../assets/link-projet.png" alt="link">
+          </a>
+          <a href="">
+            <img class="logo" src="../assets/youtube-projet.png" alt="youtube">
+          </a>
         </div>
       </div>
       <div class="card-body">
@@ -21,17 +27,36 @@
     </div>
     <div class="d-flex flex-row-reverse mb-16">
       <a href="https://pokedex-tony-cseresznyak.vercel.app/">
-        <img class="project-img" src="../assets/pokedex.png" alt="pokedex">
+        <img class="project-img" src="../assets/groupomania.png" alt="pokedex">
       </a>
-      <div class="ml-10 ">
-        <p class="green"> Projet perso </p>
-        <h2>
-          Pokedex
+      <div class="mr-10 card-text">
+        <h2 class="card-title">
+          Groupomania
         </h2>
+        <div class="card-footer">
+          <a href="">
+            <img class="logo" src="../assets/github-projet.png" alt="github">
+          </a>
+          <a href="">
+            <img class="logo-link" src="../assets/link-projet.png" alt="link">
+          </a>
+          <a href="">
+            <img class="logo" src="../assets/youtube-projet.png" alt="youtube">
+          </a>
+        </div>
       </div>
-      <div>
-        Un Pokedex first-gen réalisé sous Vue.JS en consommant l'API <a class="link" href="https://pokeapi.co/"> https://pokeapi.co/</a>. <br> Affichage des 151 premiers pokemon, récupération et affichage de l'image, de l'id et du type du pokemon selectionné.
+      <div class="card-body-2">
+        Groupomania est un réseau social d'entreprise avec lequel il est possible de : 
+            <br> -Créer un compte avec un pseudo, un email et un mot de passe.
+            <br> -Modifier son compte (son pseudo, son email, son mot de passe).
+            <br> -Partager des posts avec ou sans média (jpeg,jpg,png,gif).
+            <br> -Supprimer son compte et ses posts. <br> <br>
+          <p> Un compte Admin est également présent, avec la possibilité de supprimer les posts des autres utilisateurs.</p>
       </div>
+    </div>
+    <div class="wip">
+      WORK IN PROGRESS
+      Prochainement: la suite des projets réalisés (vidéo youtube démo), liens de la navbar cliquables qui renvoyent vers chaques sections associées, animations du logo et ajout d'une animation chargement à l'ouverture de la page.
     </div>
   </div>
 </template>
@@ -49,6 +74,17 @@ export default {
   text-decoration: none;
 }
 
+.logo{
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+
+.logo-link{
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
 .green{
   color: rgb(91, 177, 171);
 }
@@ -59,11 +95,6 @@ export default {
 .project-title{
     display: flex;
     text-align: left;
-}
-.project-title:before{
-  content: "03.";
-  margin-right: 10px;
-  color: var(--green);
 }
 .project-title:after{
   content: "";
@@ -85,11 +116,18 @@ export default {
   filter: grayscale(0%);
 }
 
-.card-title{
+.card-text{
+  margin-top: 30px;
   text-align: left;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
+
+.card-title{
+  font: 2.5em 'Archivo Black';
+}
+
 .card-body{
   max-height: 140px;
   max-width: 400px;
@@ -98,13 +136,31 @@ export default {
   padding: 10px;
   border-radius: 5px;
   position:relative;
-  left: -190px;
-  top: 80px;
+  left: -260px;
+  top: 100px;
+}
+
+.card-body-2{
+  max-height: 220px;
+  max-width: 800px;
+  background-color: #2c3366;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+  position:relative;
+  left: 360px;
+  top: 100px;
 }
 
 .card-footer{
+  margin-bottom: 80px;
   display: flex;
+  align-items: center;
   left: 1px;
   bottom: 2px;
+  font: 1.4em "Anonymous Pro";
+}
+.wip{
+  font: 2em "Anonymous Pro";
 }
 </style>

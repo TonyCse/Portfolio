@@ -129,6 +129,7 @@ export default {
 .card{
   display: flex;
   padding: 30px 30px 30px 5px;
+  max-width: 75%;
 }
 
 .card:hover{
@@ -141,7 +142,7 @@ export default {
   font-size: 15px;
   color: rgb(168, 168, 168);
   font: 1em "Anonymous Pro";
-      font-weight: 900;
+  font-weight: 900;
 }
 
 .body-card{
