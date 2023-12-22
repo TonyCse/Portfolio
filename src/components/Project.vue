@@ -129,8 +129,8 @@ export default {
 }
 
 .card-body{
-  max-height: 140px;
-  max-width: 400px;
+  max-height: 150px;
+  min-width: 500px;
   background-color: #2c3366;
   text-align: left;
   padding: 10px;
@@ -142,7 +142,7 @@ export default {
 
 .card-body-2{
   max-height: 220px;
-  max-width: 800px;
+  min-width: 600px;
   background-color: #2c3366;
   text-align: left;
   padding: 10px;
@@ -153,7 +153,7 @@ export default {
 }
 
 .card-footer{
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   left: 1px;
