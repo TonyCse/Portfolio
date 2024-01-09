@@ -10,13 +10,13 @@
           Pokedex
         </h2>
         <div class="card-footer">
-          <a href="">
+          <a href="https://github.com/TonyCse/Pokedex">
             <img class="logo" src="../assets/github-projet.png" alt="github">
           </a>
-          <a href="">
+          <a href="https://pokedex-tony-cseresznyak.vercel.app/">
             <img class="logo-link" src="../assets/link-projet.png" alt="link">
           </a>
-          <a href="">
+          <a href="https://www.youtube.com/watch?v=WTIMYAG9bks">
             <img class="logo" src="../assets/youtube-projet.png" alt="youtube">
           </a>
         </div>
@@ -34,11 +34,8 @@
           Groupomania
         </h2>
         <div class="card-footer">
-          <a href="">
+          <a href="https://github.com/TonyCse/Groupomania-P7">
             <img class="logo" src="../assets/github-projet.png" alt="github">
-          </a>
-          <a href="">
-            <img class="logo-link" src="../assets/link-projet.png" alt="link">
           </a>
           <a href="">
             <img class="logo" src="../assets/youtube-projet.png" alt="youtube">
